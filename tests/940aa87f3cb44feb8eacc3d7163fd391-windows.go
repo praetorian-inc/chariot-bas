@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/praetorian-inc/chariot-bas/internal/endpoint"
+	"github.com/praetorian-inc/chariot-bas/endpoint"
 )
 
 var (

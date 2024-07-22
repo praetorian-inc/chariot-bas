@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"os/exec"
 
-	"github.com/praetorian-inc/chariot-bas/internal/endpoint"
+	"github.com/praetorian-inc/chariot-bas/endpoint"
 )
 
 const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"

@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	_ "embed"
-	"github.com/praetorian-inc/chariot-bas/internal/endpoint"
+	"github.com/praetorian-inc/chariot-bas/endpoint"
 )
 
 //go:embed static/bofs/Kerberoast.x64.o.gz

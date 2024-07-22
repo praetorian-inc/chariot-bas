@@ -3,7 +3,7 @@ package main
 import (
 	_ "embed"
 	"fmt"
-	"github.com/praetorian-inc/chariot-bas/internal/endpoint"
+	"github.com/praetorian-inc/chariot-bas/endpoint"
 	"github.com/praetorian-inc/goffloader/src/pe"
 	"log"
 	"strings"

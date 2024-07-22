@@ -6,7 +6,7 @@ import (
 	"github.com/praetorian-inc/goffloader/src/coff"
 	"strings"
 
-	"github.com/praetorian-inc/chariot-bas/internal/endpoint"
+	"github.com/praetorian-inc/chariot-bas/endpoint"
 )
 
 //go:embed static/bofs/whoami.x64.o.gz
