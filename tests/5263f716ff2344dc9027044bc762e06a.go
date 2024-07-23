@@ -1,4 +1,4 @@
-// + build windo
+// + build windows
 
 package main
 
