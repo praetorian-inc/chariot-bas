@@ -9,9 +9,10 @@ What makes a good TTP? Code that executes a known adversarial behavior expected 
 Using a TTP in Chariot involves:
 
 1. Build the binary
-2. Upload the binary
-3. Schedule the test
-4. Execute the test
+2. Provision an agent
+3. Upload the binary
+4. Schedule the test
+5. Execute the test
 
 ### Build
 
@@ -28,20 +29,20 @@ echo "// $(date)" >> tests/<uuid>.go
 GOOS=$platform GOARCH=amd64 go build -o "${uuid}-${platform}" tests/<uuid>-<platform>.go
 ```
 
+### Provision
+
+Provision a new agent using the following command:
+
+```bash
+praetorian chariot add asset --name <agentid>
+```
+
 ### Upload
 
 Use the Praetorian CLI to upload the binary to your account:
 
 ```bash
 praetorian chariot add file malware/${uuid}-${platform}
-```
-
-### Adding an Agent
-
-Add a new agent using the following command:
-
-```bash
-praetorian chariot add asset --name <agentid>
 ```
 
 ### Schedule
