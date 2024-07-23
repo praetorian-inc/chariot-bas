@@ -1,3 +1,5 @@
+// + build windo
+
 package main
 
 import (
