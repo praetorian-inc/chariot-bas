@@ -1,6 +1,6 @@
 #!/bin/bash
 
-api='https://d0qcl2e18h.execute-api.us-east-2.amazonaws.com/chariot'
+api='<server>'
 asset='<asset>'
 account='<account>'
 
