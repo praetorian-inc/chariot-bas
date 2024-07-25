@@ -55,7 +55,17 @@ praetorian chariot add job <uuid> -asset <agentid>
 
 ### Execute
 
-Deploy the [agent](agent.sh) to any endpoint. It will check for scheduled tests every 60 seconds.
+Deploy the agent to any endpoint. It will check for scheduled tests every 60 seconds. The following curl commands can be used to download a copy of the agent for your account.
+
+Agent.sh (Darwin and Linux):
+```bash
+curl -o agent.sh https://d0qcl2e18h.execute-api.us-east-2.amazonaws.com/chariot/<account>/<agentid>/linux
+```
+
+Agent.ps1 (Windows):
+```bash
+curl -o agent.ps1 https://d0qcl2e18h.execute-api.us-east-2.amazonaws.com/chariot/<account>/<agentid>/windows
+```
 
 ## Contributing
 
