@@ -120,7 +120,7 @@ func test() {
 }
 
 func cleanup() {
-	// os.RemoveAll(os.Getenv("USERPROFILE") + "\\Downloads\\praetorian_security_test")
+	os.RemoveAll(os.Getenv("USERPROFILE") + "\\Downloads\\praetorian_security_test")
 }
 
 func main() {
