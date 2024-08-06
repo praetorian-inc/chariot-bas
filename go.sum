@@ -1,0 +1,8 @@
+github.com/RIscRIpt/pecoff v0.0.0-20200923152459-a332238caa87 h1:QJKfqX8iCuRT9HZoQGU7cUjnTjKJrypSCghfmAX2vW0=
+github.com/RIscRIpt/pecoff v0.0.0-20200923152459-a332238caa87/go.mod h1:fA0yvj8xMccdfkCwUABhuLZTrRXgyvg3b1k/B/EqHu4=
+github.com/praetorian-inc/goffloader v0.0.0-20240726182937-53a9ba88982e h1:VXHou8hNQSKV0CrLwR9OyHOcut8Uy2WxHl9E3RTFoE4=
+github.com/praetorian-inc/goffloader v0.0.0-20240726182937-53a9ba88982e/go.mod h1:K0+YseOXE3dVjxbABygZsnyLmlSTwJwta+Orht40Fz0=
+golang.org/x/crypto v0.25.0 h1:ypSNr+bnYL2YhwoMt2zPxHFmbAN1KZs/njMG3hxUp30=
+golang.org/x/crypto v0.25.0/go.mod h1:T+wALwcMOSE0kXgUAnPAHqTLW+XHgcELELW8VaDgm/M=
+golang.org/x/sys v0.22.0 h1:RI27ohtqKCnwULzJLqkv897zojh5/DwS/ENaMzUOaWI=
+golang.org/x/sys v0.22.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
